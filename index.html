@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Signup </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="form-side">
+            <a href="#" title="Victory Designer"><img class="logo" src="logos/smart.png" alt="logo"></a>
+            <form class="my-form">
+                <div class="login-welcomw-row"><h1> Create your account </h1></div>
+                <div class="socials-row">
+                 <a href="#" title="Use Google"> <img src="logos/gogle.png" alt="Google">Signup with Google </a> 
+                 <a href="#" title="Use Facebook"> <img src="logos/facebook.png" alt="Facebook">Signup with Facebook</a> 
+                </div>
+                <div class="divider">
+                    <div class="divider-line"></div>Or<div class="divider-line"></div>
+                </div>
+                <div class="text-field">
+                    <label for="email">Email:
+                        <input type="email" id="email" name="email" autocomplete="off" placeholder="Your Email"
+                        required>
+                        <!...svg icon...>
+                    </label>
+                </div>
+                <div class="text-field">
+                    <label for="password">Password:
+                    <input id="password" type="password" name="password" aria-placeholder="Your Password"
+                    title=" Minimum 6 characters at least 1 Alphabet and 1 Number"
+                    pattern="! @ # $ % ^ & * ( ) _ + - = { } [ ] | \ : ; ' < > , . ? / ~ `"required>
+                    <! ...svg icon...>
+                    </label>
+                </div>
+                <div class="text-field">
+                    <label for="confirm-pasword"> Repeat Password :
+                        <input id="confirm-pasword" type="password" name="password" placeholder="Repeat password"
+                        title=" Minimum 6 characters at least 1 Alphabet and 1 Number"
+                        pattern="! @ # $ % ^ & * ( ) _ + - = { } [ ] | \ : ; ' < > , . ? / ~ `"required>
+                    <! ...svg icon...>
+                    </label>
+                </div>
+                <button class="my-form__button" type="submit">Sign up</button>
+                <div class="my-form__action">
+                    <div class="my-form__row">
+                        <span>Did you forget your password</span>
+                        <a href="#" title="Reset password"> Reset Password</a>
+                    </div>
+                    <div class="my-form__signup">
+                        <a href="#" title="Login">Login</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="info-side">
+            <img src="img/mack.png" alt="Mock" class="mockup" />
+            <div class="Welcome-message">
+                <h2> Victory Designer </h2>
+                <p>
+                    Your ultimate guide for all interior and exterior designs 
+                    Discover the world class design idea and decors.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
